@@ -1,7 +1,13 @@
-import React from "react";
+import PokemonCard from "../components/Home/PokemonCard";
+import ProductElectronic from "../components/Home/ProductElectronic";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <section>
+      <ProductElectronic />
+      <PokemonCard />
+    </section>
+  );
 };
 
 export default Home;

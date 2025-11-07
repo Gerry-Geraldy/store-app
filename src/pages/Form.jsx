@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import FormTable from "../components/Form/FormTable";
 
 const Form = () => {
   return (
-    <div>Form</div>
-  )
-}
+    <section>
+      <FormTable />
+    </section>
+  );
+};
 
-export default Form
+export default Form;
